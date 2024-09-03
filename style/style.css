@@ -1,8 +1,32 @@
-
-
-
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.work {
+  width: 70%;
+  margin: 50px auto;
+  border-radius: 30px;
+  background:url("../shapes/Group_33094_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+.work-title {
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+}
+.btn-3 {
+  padding: 15px 25px;
+  border-radius: 6px;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 128, 99) -28.333%,
+    rgb(244, 96, 96) 95.833%
+  );
+  border: none;
 }
